@@ -2,3 +2,4 @@ cd /teamspace/studios/this_studio #cd /teamspace/studios/<studio-name>
 mkdir bin
 sudo curl -L https://ollama.com/download/ollama-linux-amd64 -o /teamspace/studios/this_studio/bin/ollama
 sudo chmod +x /teamspace/studios/this_studio/bin/ollama
+./bin/ollama pull <model_name>
